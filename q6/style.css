@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 215, 215);
+}
+.container{
+   background-color: rgb(124, 181, 234);
+   padding-bottom: 30px;
+}
+p, input{
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    height: 50px;
+    border-radius: 10px; 
+}
+
+p{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 40px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
