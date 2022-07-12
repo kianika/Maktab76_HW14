@@ -10,6 +10,7 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction: column;
 }
 p, input{
     width: 600px;
@@ -27,10 +28,12 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0px;
 }
 
 input{
     margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 h2{
