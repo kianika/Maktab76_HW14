@@ -27,8 +27,8 @@ $(document).ready(function(){
             url: API_URL,
             type: "GET",
             success: function(infos) {
-            $.each(infos, function (index , infos) {
-                var row = "<tr><td>" + infos.name + "</td><td>" + infos.lastname + "</td><td>" + infos.age + "</td></tr>";
+            $.each(infos, function (index , info) {
+                var row = "<tr><td>" + info.name + "</td><td>" + info.lastname + "</td><td>" + info.age + "</td></tr>";
      $("table tbody").append(row);
             });
         }
