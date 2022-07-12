@@ -7,6 +7,9 @@ body{
 .container{
    background-color: rgb(124, 181, 234);
    padding-bottom: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 p, input{
     width: 600px;
